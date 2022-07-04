@@ -1,11 +1,9 @@
 class V1::GreetingsController < ApplicationController
-    def index
-        @greeting = Greeting.all.shuffle.first
+  def index
+    @greeting = Greeting.all.sample
 
-        render json: @greeting, only: [:text]
-    end
+    render json: @greeting, only: [:text]
+  end
 
-    def  new
-
-    end
+  def new; end
 end
