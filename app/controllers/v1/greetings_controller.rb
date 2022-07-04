@@ -2,7 +2,7 @@ class V1::GreetingsController < ApplicationController
     def index
         @greeting = Greeting.all.shuffle.first
 
-        render json: @greeting
+        render json: @greeting, only: [:text]
     end
 
     def  new
