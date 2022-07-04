@@ -1,56 +1,74 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+# Hello Rails React APP
 
-# Project Name
-
-> Description the project.
+> A simple App with rails and react.js to print Random of greeting so whenever the page is refredhed you can see Greetings for you
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- Ruby on Rails
+- RSpec, PostgreSQL
+- React.js 
+- Redux
 
-## Live Demo (if available)
+## Configuration
 
-[Live Demo Link](https://livedemo.com)
+To use this project you first need to have installed the following:
 
++ Node.js
++ Ruby
++ PostgreSQL
++ Rails
 
-## Getting Started
+* Ruby version
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+The version of ruby that is needed for this project is 
 
++ 3.1.1
 
-To get a local copy up and running follow these simple example steps.
+Once you have installed them, you need to use the following command to clone the repository:
 
-### Prerequisites
+```
+git clone https://github.com/richardoppiyo/hello-rails-react.git
+```
 
-### Setup
+### Database creation
 
-### Install
+Next, use this command to create the databases:
+```
+rails db:create
+```
 
-### Usage
+To run the seeds file
 
-### Run tests
+```
+rails db:seed
+```
 
-### Deployment
+## Usage
 
+Finally, use the following command to initialize the live server:
 
+```
+rails s
+```
+
+```
+
+open on your browser "localhost:3000"
+```
 
 ## Authors
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+### 👤 **Richard Opiyo**
 
-👤 **Author2**
+- GitHub: [@richardoppiyo](https://github.com/richardoppiyo)
+- Twitter: [@blessed_ricky](https://twitter.com/blessed_ricky)
+- LinkedIn: [Richard Opiyo](https://linkedin.com/in/richardoppiyo) 
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 
 ## 🤝 Contributing
 
