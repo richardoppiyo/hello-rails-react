@@ -1,24 +1,91 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# Hello Rails React APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A simple App with rails and react.js to print Random of greeting so whenever the page is refredhed you can see Greetings for you
 
-Things you may want to cover:
+
+## Built With
+
+- Ruby
+- Ruby on Rails
+- RSpec, PostgreSQL
+- React.js 
+- Redux
+
+## Configuration
+
+To use this project you first need to have installed the following:
+
++ Node.js
++ Ruby
++ PostgreSQL
++ Rails
 
 * Ruby version
 
-* System dependencies
+The version of ruby that is needed for this project is 
 
-* Configuration
++ 3.1.1
 
-* Database creation
+Once you have installed them, you need to use the following command to clone the repository:
 
-* Database initialization
+```
+git clone git@github.com:Reem-lab/budget-app.git
+```
 
-* How to run the test suite
+### Database creation
 
-* Services (job queues, cache servers, search engines, etc.)
+Next, use this command to create the databases:
+```
+rails db:create
+```
 
-* Deployment instructions
+To run the seeds file
 
-* ...
+```
+rails db:seed
+```
+
+## Usage
+
+Finally, use the following command to initialize the live server:
+
+```
+rails s
+```
+
+```
+
+open on your browser "localhost:3000"
+```
+
+## Authors
+
+
+### 👤 **Richard Opiyo**
+
+- GitHub: [@richardoppiyo](https://github.com/richardoppiyo)
+- Twitter: [@blessed_ricky](https://twitter.com/blessed_ricky)
+- LinkedIn: [Richard Opiyo](https://linkedin.com/in/richardoppiyo) 
+
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
