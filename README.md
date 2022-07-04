@@ -30,7 +30,7 @@ The version of ruby that is needed for this project is
 Once you have installed them, you need to use the following command to clone the repository:
 
 ```
-git clone git@github.com:Reem-lab/budget-app.git
+git clone https://github.com/richardoppiyo/hello-rails-react.git
 ```
 
 ### Database creation
